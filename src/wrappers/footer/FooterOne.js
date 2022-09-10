@@ -144,7 +144,7 @@ const FooterOne = ({
                 <ul>
                   <li>
                     <a
-                      href="//www.facebook.com"
+                      href="https://www.facebook.com/findyourangel/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -153,7 +153,7 @@ const FooterOne = ({
                   </li>
                   <li>
                     <a
-                      href="//www.twitter.com"
+                      href="https://WWW.Twitter.com/@CherryB86929501"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -162,7 +162,7 @@ const FooterOne = ({
                   </li>
                   <li>
                     <a
-                      href="//www.instagram.com"
+                      href="https://instagram.com/cherryy_blossommmm?igshid=YmMyMTA2M2Y="
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -171,11 +171,11 @@ const FooterOne = ({
                   </li>
                   <li>
                     <a
-                      href="//www.youtube.com"
+                      href="https://pin.it/1S5SIkP"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      Youtube
+                      Pinterest
                     </a>
                   </li>
                 </ul>
