@@ -3,7 +3,7 @@ import React from "react";
 import { multilanguage } from "redux-multilanguage";
 import { connect } from "react-redux";
 import { setCurrency } from "../../redux/actions/currencyActions";
-import LanguageCurrencyChanger from "./sub-components/LanguageCurrencyChanger";
+
 
 const HeaderTop = ({
   currency,
@@ -13,26 +13,9 @@ const HeaderTop = ({
   borderStyle
 }) => {
   return (
-    <div
-      className={`header-top-wap ${
-        borderStyle === "fluid-border" ? "border-bottom" : ""
-      }`}
-    >
-      <LanguageCurrencyChanger
-        currency={currency}
-        setCurrency={setCurrency}
-        currentLanguageCode={currentLanguageCode}
-        dispatch={dispatch}
-      />
-      <div className="header-offer">
-        <p>
-          Free delivery on order over{" "}
-          <span>
-            {currency.currencySymbol + (200 * currency.currencyRate).toFixed(2)}
-          </span>
-        </p>
-      </div>
-    </div>
+    <>
+     
+    </>
   );
 };
 

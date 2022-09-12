@@ -72,27 +72,27 @@ const Contact = ({ location }) => {
                     <h3>Follow Us</h3>
                     <ul>
                       <li>
-                        <a href="//facebook.com">
+                        <a href="https://www.facebook.com/findyourangel/">
                           <i className="fa fa-facebook" />
                         </a>
                       </li>
                       <li>
-                        <a href="//pinterest.com">
+                        <a href="https://pin.it/1S5SIkP">
                           <i className="fa fa-pinterest-p" />
                         </a>
                       </li>
                       <li>
-                        <a href="//thumblr.com">
-                          <i className="fa fa-tumblr" />
+                        <a href="https://instagram.com/cherryy_blossommmm?igshid=YmMyMTA2M2Y=">
+                          <i className="fa fa-instagram" />
                         </a>
                       </li>
-                      <li>
+                      {/* <li>
                         <a href="//vimeo.com">
                           <i className="fa fa-vimeo" />
                         </a>
-                      </li>
+                      </li> */}
                       <li>
-                        <a href="//twitter.com">
+                        <a href="https://WWW.Twitter.com/@CherryB86929501">
                           <i className="fa fa-twitter" />
                         </a>
                       </li>

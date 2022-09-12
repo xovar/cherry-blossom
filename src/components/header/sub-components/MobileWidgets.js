@@ -19,16 +19,16 @@ const MobileWidgets = () => {
       </div>
       {/*Off Canvas Widget Social Start*/}
       <div className="off-canvas-widget-social">
-        <a href="//twitter.com" title="Twitter">
+        <a href="https://WWW.Twitter.com/@CherryB86929501" title="Twitter">
           <i className="fa fa-twitter"></i>
         </a>
-        <a href="//instagram.com" title="Instagram">
+        <a href="https://instagram.com/cherryy_blossommmm?igshid=YmMyMTA2M2Y=" title="Instagram">
           <i className="fa fa-instagram"></i>
         </a>
-        <a href="//facebook.com" title="Facebook">
+        <a href="https://www.facebook.com/findyourangel/" title="Facebook">
           <i className="fa fa-facebook"></i>
         </a>
-        <a href="//pinterest.com" title="Pinterest">
+        <a href="https://pin.it/1S5SIkP" title="Pinterest">
           <i className="fa fa-pinterest"></i>
         </a>
       </div>

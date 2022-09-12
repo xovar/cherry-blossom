@@ -141,9 +141,8 @@ const App = (props) => {
                 <Route
                   exact
                   path={process.env.PUBLIC_URL + "/"}
-                  component={HomeFashion}
+                  component={HomeFashionSeven}
                 />
-
                 {/* Homepages */}
                 <Route
                   path={process.env.PUBLIC_URL + "/home-fashion"}
@@ -342,10 +341,10 @@ const App = (props) => {
                   render={(routeProps) => (
                     <Product {...routeProps} key={routeProps.match.params.id} />
                   )}
+                  component={ProductTabLeft}
                 />
                 <Route
-                  path={process.env.PUBLIC_URL + "/product-tab-left/:id"}
-                  component={ProductTabLeft}
+                  path={process.env.PUBLIC_URL + "/product-tab-left/:id"}  
                 />
                 <Route
                   path={process.env.PUBLIC_URL + "/product-tab-right/:id"}
