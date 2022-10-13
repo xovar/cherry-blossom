@@ -2,15 +2,29 @@
   {
     "id": 1,
     "title": "Enjoy This Offer Today",
-    "subtitle": "New Collection <br>Sale 40%",
+    "subtitle": "<span style='color:white;'>New Collection <br>Sale 40% </span>",
     "image": "/assets/img/slider/slider-12.jpg",
     "url": "/shop-grid-standard"
   },
   {
     "id": 2,
     "title": "Enjoy This Offer Today",
-    "subtitle": "New Collection <br>Sale 20%",
+    "subtitle": "<span style='color:white;'>New Collection <br>Sale 20% </span>",
     "image": "/assets/img/slider/slider-12-2.jpg",
+    "url": "/shop-grid-standard"
+  },
+  {
+    "id": 3,
+    "title": "Enjoy This Offer Today",
+    "subtitle": "<span style='color:white;'>New Collection <br>Sale 20% </span>",
+    "image": "/assets/img/slider/banner-3.jpg",
+    "url": "/shop-grid-standard"
+  },
+  {
+    "id": 4,
+    "title": "Enjoy This Offer Today",
+    "subtitle": "<span style='color:white;'>New Collection <br>Sale 20% </span>",
+    "image": "/assets/img/slider/banner-4.jpg",
     "url": "/shop-grid-standard"
   }
 ]
