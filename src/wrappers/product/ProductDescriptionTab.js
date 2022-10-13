@@ -27,17 +27,16 @@ const ProductDescriptionTab = ({ spaceBottomClass, productFullDesc }) => {
                 <div className="product-anotherinfo-wrapper">
                   <ul>
                     <li>
-                      <span>Weight</span> 400 g
+                      <span>Size : </span> 36/40/44
                     </li>
                     <li>
-                      <span>Dimensions</span>10 x 10 x 15 cm{" "}
+                      <span>Pant long : </span> 38
                     </li>
                     <li>
-                      <span>Materials</span> 60% cotton, 40% polyester
+                      <span>Dress : </span>  Pure Samu Silk
                     </li>
                     <li>
-                      <span>Other Info</span> American heirloom jean shorts pug
-                      seitan letterpress
+                      <span>Pant : </span>  premium silk
                     </li>
                   </ul>
                 </div>
