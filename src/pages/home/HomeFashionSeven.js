@@ -5,7 +5,6 @@ import HeroSliderFifteen from "../../wrappers/hero-slider/HeroSliderFifteen";
 import TabProductNine from "../../wrappers/product/TabProductNine";
 import BannerEleven from "../../wrappers/banner/BannerEleven";
 import CountDownThree from "../../wrappers/countdown/CountDownThree";
-import FeatureIconFour from "../../wrappers/feature-icon/FeatureIconFour";
 import NewsletterThree from "../../wrappers/newsletter/NewsletterThree";
 
 const HomeFashionSeven = () => {
@@ -41,13 +40,7 @@ const HomeFashionSeven = () => {
           countDownImage="/assets/img/banner/deal-2.png"
         />
         {/* feature icon */}
-        <FeatureIconFour
-          bgImg="/assets/img/bg/shape.png"
-          containerClass="container-fluid"
-          gutterClass="padding-10-row-col"
-          spaceTopClass="pt-50"
-          spaceBottomClass="pb-40"
-        />
+        
         {/* newsletter */}
         <NewsletterThree
           spaceTopClass="pt-100"
