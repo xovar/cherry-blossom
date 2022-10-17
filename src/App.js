@@ -6,6 +6,9 @@ import { ToastProvider } from "react-toast-notifications";
 import { multilanguage, loadLanguages } from "redux-multilanguage";
 import { connect } from "react-redux";
 import { BreadcrumbsProvider } from "react-breadcrumbs-dynamic";
+import Login from "./dashboard/login/Login";
+import Admin from "./dashboard/adminPannel/Admin";
+import Add from "./dashboard/add/Add";
 
 // home pages
 const HomeFashionSeven = lazy(() => import("./pages/home/HomeFashionSeven"));
@@ -82,7 +85,21 @@ const App = (props) => {
                     <Product {...routeProps} key={routeProps.match.params.id} />
                   )}
                   component={ProductTabLeft}
-                />               
+                /> 
+
+                 {/* dashboard */}
+                 <Route
+                  path={process.env.PUBLIC_URL + "/route/pro/admin/me"}
+                  component={Login}
+                />              
+                 <Route
+                  path={process.env.PUBLIC_URL + "/route/pro/admin/dashboard"}
+                  component={Admin}
+                />              
+                 <Route
+                  path={process.env.PUBLIC_URL + "/route/pro/admin/add"}
+                  component={Add}
+                />              
 
                 {/* Other pages */}
                 <Route
