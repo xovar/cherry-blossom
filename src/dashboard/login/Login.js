@@ -28,7 +28,7 @@ function Login() {
             <div className="col-sm-10 offset-sm-2">
             </div>
           </div>
-          <Link to='/route/pro/admin/dashboard'><button type="submit" className="btn btn-primary"> Sign in</button></Link>
+          <Link to='/pro/admin/dashboard'><button type="submit" className="btn btn-primary"> Sign in</button></Link>
         </form>
       </div>
     </>

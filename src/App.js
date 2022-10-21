@@ -89,15 +89,15 @@ const App = (props) => {
 
                  {/* dashboard */}
                  <Route
-                  path={process.env.PUBLIC_URL + "/route/pro/admin/me"}
+                  path={process.env.PUBLIC_URL + "/pro/admin/me"}
                   component={Login}
                 />              
                  <Route
-                  path={process.env.PUBLIC_URL + "/route/pro/admin/dashboard"}
+                  path={process.env.PUBLIC_URL + "/pro/admin/dashboard"}
                   component={Admin}
                 />              
                  <Route
-                  path={process.env.PUBLIC_URL + "/route/pro/admin/add"}
+                  path={process.env.PUBLIC_URL + "/pro/admin/add"}
                   component={Add}
                 />              
 

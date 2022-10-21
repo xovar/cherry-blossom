@@ -44,7 +44,7 @@ function Admin() {
             <div className='col-2'>
             </div>
             <div className='col-3'>
-                <Link to='/route/pro/admin/add'><button className="btn btn-outline-primary" type="submit">Add <i className="fa fa-plus" /></button></Link>
+                <Link to='/pro/admin/add'><button className="btn btn-outline-primary" type="submit">Add <i className="fa fa-plus" /></button></Link>
             </div>
         </div>
       </div>
