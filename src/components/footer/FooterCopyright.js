@@ -11,19 +11,13 @@ const FooterCopyright = ({ footerLogo, spaceBottomClass, colorClass }) => {
     >
       <div className="footer-logo">
         <Link to={process.env.PUBLIC_URL + "/"}>
-          <img alt="" src={process.env.PUBLIC_URL + footerLogo} />
+          <img alt="" src={process.env.PUBLIC_URL + footerLogo} style={{height:'60px',width:'85px',marginTop:'-30px'}}/>
         </Link>
       </div>
       <p>
         &copy; {new Date().getFullYear()}{" "}
-        <a
-          href="https://hasthemes.com"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          Flone
-        </a>
-        .<br /> All Rights Reserved
+        <a>CherryBlossom.</a>
+        <br /> All Rights Reserved
       </p>
     </div>
   );
